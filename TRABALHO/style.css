@@ -8,7 +8,7 @@
     --text: #ecf4ff;
     --muted: #97a9c4;
     --primary: #72a9ff;
-    --primary-2: #9a7cff;
+    --primary-2: #9076e4;
     --success: #8ff7c2;
     --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
     --radius: 26px;
@@ -731,7 +731,7 @@
       padding: 1rem;
       border-radius: 22px;
       border: 1px solid var(--line);
-      background: rgba(7, 17, 31, 0.95);
+      background: rgba(243, 243, 243, 0.95);
       backdrop-filter: blur(18px);
       display: flex;
       flex-direction: column;
