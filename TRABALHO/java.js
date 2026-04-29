@@ -16,6 +16,8 @@ if (menuToggle && siteNav) {
   });
 }
 
+const revealElements = document.querySelectorAll('.reveal');
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -26,16 +28,14 @@ const observer = new IntersectionObserver((entries) => {
   threshold: 0.15
 });
 
-document.querySelectorAll('.reveal').forEach(element => {
-  observer.observe(element);
-});
+revealElements.forEach(element => observer.observe(element));
 
 const form = document.querySelector('.contact-form');
 
 if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('Pedido de agendamento enviado com sucesso!');
+    alert('Solicitação enviada com sucesso! Em breve entraremos em contato.');
     form.reset();
   });
 }

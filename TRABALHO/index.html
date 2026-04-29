@@ -4,23 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Barbearia Corte Fino</title>
-  <meta name="description" content="Barbearia premium com cortes clássicos, barba impecável e atendimento de alto nível." />
+  <title>CotaPrime | Plataforma de Cotações e Vendas</title>
+  <meta name="description" content="Solicite, compare e feche cotações com rapidez. Plataforma moderna para vendas consultivas, propostas comerciais e gestão de oportunidades." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page-noise" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="container nav-wrap">
       <a href="#inicio" class="brand" aria-label="Ir para o início">
-        <span class="brand-mark">CF</span>
-        <span class="brand-text">
-          <strong>Corte Fino</strong>
-          <small>Barbearia Premium</small>
+        <span class="brand-badge">CP</span>
+        <span class="brand-copy">
+          <strong>CotaPrime</strong>
+          <small>cotações & vendas</small>
         </span>
       </a>
 
@@ -31,10 +33,10 @@
 
       <nav class="site-nav" aria-label="Navegação principal">
         <a href="#inicio">Início</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#ambiente">Ambiente</a>
-        <a href="#contato" class="nav-cta">Agendar</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#vantagens">Vantagens</a>
+        <a href="#numeros">Resultados</a>
+        <a href="#contato" class="nav-cta">Solicitar cotação</a>
       </nav>
     </div>
   </header>
@@ -43,130 +45,185 @@
     <section class="hero section" id="inicio">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Estilo clássico. Presença moderna.</p>
-          <h1>O corte certo muda mais do que o visual.</h1>
+          <p class="eyebrow">Vendas mais rápidas. Propostas mais inteligentes.</p>
+          <h1>Transforme pedidos em cotações fechadas com mais agilidade.</h1>
           <p class="hero-text">
-            Uma experiência de barbearia pensada para homens que valorizam acabamento impecável,
-            ambiente sofisticado e atendimento sem pressa.
+            Centralize solicitações, monte propostas comerciais com clareza e acompanhe
+            negociações em uma experiência visual moderna, objetiva e feita para vender mais.
           </p>
 
           <div class="hero-actions">
-            <a href="#contato" class="btn btn-gold">Agende seu horário</a>
-            <a href="#servicos" class="btn btn-ghost">Ver serviços</a>
+            <a href="#contato" class="btn btn-primary">Pedir minha cotação</a>
+            <a href="#como-funciona" class="btn btn-secondary">Ver funcionamento</a>
           </div>
 
-          <div class="hero-infos">
+          <div class="hero-metrics">
             <div>
-              <strong>+10 anos</strong>
-              <span>de tradição</span>
+              <strong>+42%</strong>
+              <span>mais velocidade no envio</span>
             </div>
             <div>
-              <strong>Seg - Sáb</strong>
-              <span>09h às 20h</span>
+              <strong>+31%</strong>
+              <span>melhora na conversão</span>
             </div>
             <div>
-              <strong>Centro</strong>
-              <span>atendimento premium</span>
+              <strong>24/7</strong>
+              <span>captação de leads</span>
             </div>
           </div>
         </div>
 
         <div class="hero-visual reveal delay-2" aria-hidden="true">
-          <div class="frame">
-            <div class="barber-pole"></div>
-            <div class="visual-badge">Desde 2014</div>
-            <div class="visual-lines"></div>
+          <div class="dashboard-shell">
+            <div class="shell-top">
+              <span></span><span></span><span></span>
+            </div>
+
+            <div class="quote-flow">
+              <div class="flow-header">
+                <small>Pipeline comercial</small>
+                <strong>Cotação #02491</strong>
+              </div>
+
+              <div class="flow-line">
+                <div class="dot active"></div>
+                <div class="line active"></div>
+                <div class="dot active"></div>
+                <div class="line active"></div>
+                <div class="dot"></div>
+              </div>
+
+              <div class="flow-stages">
+                <span>Lead</span>
+                <span>Proposta</span>
+                <span>Fechamento</span>
+              </div>
+
+              <div class="quote-box quote-main">
+                <span>Cliente</span>
+                <strong>Grupo Atlas Engenharia</strong>
+              </div>
+
+              <div class="quote-row">
+                <div class="quote-box">
+                  <span>Itens</span>
+                  <strong>18 produtos</strong>
+                </div>
+                <div class="quote-box">
+                  <span>Prazo</span>
+                  <strong>48 horas</strong>
+                </div>
+              </div>
+
+              <div class="quote-price">
+                <small>Valor estimado</small>
+                <strong>R$ 18.450,00</strong>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="services section" id="servicos">
+    <section class="process section" id="como-funciona">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Serviços</p>
-          <h2>Precisão, ritual e personalidade.</h2>
+          <p class="eyebrow">Como funciona</p>
+          <h2>Um fluxo comercial claro do pedido ao fechamento.</h2>
         </div>
 
-        <div class="services-layout">
-          <article class="service-block reveal">
-            <span class="service-number">01</span>
-            <h3>Corte Masculino</h3>
+        <div class="process-layout">
+          <article class="process-step reveal">
+            <span class="step-number">01</span>
+            <h3>Receba a solicitação</h3>
             <p>
-              Corte clássico, degradê, tesoura ou estilo contemporâneo com acabamento detalhado
-              e orientação personalizada.
+              Capture pedidos de clientes em um formulário simples, direto e pronto para
+              transformar interesse em oportunidade real.
             </p>
           </article>
 
-          <article class="service-block reveal delay-1">
-            <span class="service-number">02</span>
-            <h3>Barba Terapia</h3>
+          <article class="process-step reveal delay-1">
+            <span class="step-number">02</span>
+            <h3>Monte a proposta</h3>
             <p>
-              Modelagem com toalha quente, navalha, hidratação e finalização precisa para destacar
-              o contorno do rosto.
+              Organize valores, prazos, observações e condições comerciais com uma apresentação
+              profissional e fácil de entender.
             </p>
           </article>
 
-          <article class="service-block reveal delay-2">
-            <span class="service-number">03</span>
-            <h3>Combo Premium</h3>
+          <article class="process-step reveal delay-2">
+            <span class="step-number">03</span>
+            <h3>Feche com confiança</h3>
             <p>
-              Corte + barba + acabamento de sobrancelha + finalização especial para quem quer sair
-              pronto para qualquer ocasião.
+              Acompanhe o andamento, responda mais rápido e aumente suas chances de conversão
+              com uma operação comercial mais eficiente.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="about section" id="sobre">
-      <div class="container about-grid">
-        <div class="about-visual reveal" aria-hidden="true">
-          <div class="mirror">
-            <div class="mirror-shine"></div>
+    <section class="advantages section" id="vantagens">
+      <div class="container advantages-grid">
+        <div class="advantages-copy reveal">
+          <p class="eyebrow">Vantagens</p>
+          <h2>Menos atrito comercial. Mais clareza para vender.</h2>
+          <p>
+            Ideal para equipes que trabalham com vendas consultivas, atendimento B2B,
+            orçamentos personalizados e negociações que exigem velocidade com organização.
+          </p>
+          <ul class="adv-list">
+            <li>Solicitação de cotação com visual profissional</li>
+            <li>Melhor experiência para leads e clientes recorrentes</li>
+            <li>Layout pronto para destacar preço, prazo e diferenciais</li>
+            <li>Estrutura ideal para páginas de conversão comercial</li>
+          </ul>
+        </div>
+
+        <div class="advantages-visual reveal delay-1" aria-hidden="true">
+          <div class="stat-panel stat-large">
+            <span>Tempo médio de resposta</span>
+            <strong>↓ 57%</strong>
+          </div>
+          <div class="stat-panel">
+            <span>Taxa de retorno</span>
+            <strong>+28%</strong>
+          </div>
+          <div class="stat-panel">
+            <span>Negociações ativas</span>
+            <strong>148</strong>
+          </div>
+          <div class="stat-panel stat-wide">
+            <span>Ambiente pensado para cotações, vendas e fechamento de propostas</span>
+            <strong>Visual corporativo com impacto comercial</strong>
           </div>
         </div>
-
-        <div class="about-copy reveal delay-1">
-          <p class="eyebrow">Sobre a casa</p>
-          <h2>Uma barbearia com alma de clube e acabamento de alfaiataria.</h2>
-          <p>
-            Na Corte Fino, cada atendimento é pensado como uma experiência completa:
-            música certa, ambiente elegante, produtos selecionados e profissionais que
-            entendem que estilo também é identidade.
-          </p>
-          <p>
-            Nosso foco não é só cortar cabelo. É valorizar a sua presença com técnica,
-            consistência e atenção aos detalhes.
-          </p>
-          <a href="#contato" class="text-link">Quero reservar meu horário</a>
-        </div>
       </div>
     </section>
 
-    <section class="ambience section" id="ambiente">
+    <section class="numbers section" id="numeros">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Ambiente</p>
-          <h2>Conforto, tradição e presença visual marcante.</h2>
+          <p class="eyebrow">Resultados</p>
+          <h2>Indicadores que ajudam sua operação a vender melhor.</h2>
         </div>
 
-        <div class="ambience-panels">
-          <div class="panel panel-large reveal">
-            <span>Poltronas amplas</span>
-            <strong>Conforto premium</strong>
+        <div class="numbers-band reveal delay-1">
+          <div>
+            <strong>+1.200</strong>
+            <span>cotações geradas</span>
           </div>
-          <div class="panel reveal delay-1">
-            <span>Toalha quente</span>
-            <strong>Ritual clássico</strong>
+          <div>
+            <strong>87%</strong>
+            <span>de resposta em até 1 dia</span>
           </div>
-          <div class="panel reveal delay-2">
-            <span>Produtos selecionados</span>
-            <strong>Acabamento superior</strong>
+          <div>
+            <strong>+350</strong>
+            <span>clientes atendidos</span>
           </div>
-          <div class="panel panel-wide reveal delay-3">
-            <span>Atendimento com hora marcada</span>
-            <strong>Sem fila, sem pressa, sem improviso</strong>
+          <div>
+            <strong>R$ 4,8 mi</strong>
+            <span>em propostas movimentadas</span>
           </div>
         </div>
       </div>
@@ -175,47 +232,53 @@
     <section class="contact section" id="contato">
       <div class="container contact-grid">
         <div class="contact-copy reveal">
-          <p class="eyebrow">Contato</p>
-          <h2>Agende sua próxima experiência.</h2>
+          <p class="eyebrow">Solicitar cotação</p>
+          <h2>Receba uma proposta sob medida para sua operação comercial.</h2>
           <p>
-            Entre em contato e reserve seu horário. Atendimento de segunda a sábado,
-            com pontualidade e atenção total ao cliente.
+            Preencha os dados abaixo e nossa equipe entra em contato para entender
+            sua demanda, seu volume de atendimento e o formato ideal para sua página ou sistema.
           </p>
 
-          <ul class="contact-list">
-            <li><strong>Telefone:</strong> (11) 99999-9999</li>
-            <li><strong>Endereço:</strong> Rua Exemplo, 123 - Centro</li>
-            <li><strong>Horário:</strong> Seg a Sáb, 09h às 20h</li>
+          <ul class="contact-points">
+            <li><strong>Atendimento:</strong> comercial e consultivo</li>
+            <li><strong>Prazo de retorno:</strong> até 24 horas úteis</li>
+            <li><strong>Formato:</strong> solução personalizada</li>
           </ul>
         </div>
 
         <form class="contact-form reveal delay-1">
           <label>
+            <span>Nome da empresa</span>
+            <input type="text" placeholder="Digite o nome da empresa" required>
+          </label>
+
+          <label>
             <span>Seu nome</span>
-            <input type="text" placeholder="Digite seu nome" required />
+            <input type="text" placeholder="Digite seu nome" required>
           </label>
 
           <label>
-            <span>Telefone</span>
-            <input type="tel" placeholder="(00) 00000-0000" required />
+            <span>E-mail</span>
+            <input type="email" placeholder="empresa@email.com" required>
           </label>
 
           <label>
-            <span>Serviço desejado</span>
+            <span>Tipo de demanda</span>
             <select required>
               <option value="">Selecione</option>
-              <option>Corte Masculino</option>
-              <option>Barba Terapia</option>
-              <option>Combo Premium</option>
+              <option>Página de cotação</option>
+              <option>Sistema de propostas</option>
+              <option>Captação de leads</option>
+              <option>Estrutura comercial completa</option>
             </select>
           </label>
 
           <label>
-            <span>Mensagem</span>
-            <textarea rows="4" placeholder="Escreva sua preferência de horário"></textarea>
+            <span>Descreva sua necessidade</span>
+            <textarea rows="4" placeholder="Explique o que você precisa"></textarea>
           </label>
 
-          <button type="submit" class="btn btn-gold btn-full">Solicitar agendamento</button>
+          <button type="submit" class="btn btn-primary btn-full">Enviar solicitação</button>
         </form>
       </div>
     </section>
@@ -223,7 +286,7 @@
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>© 2026 Corte Fino Barbearia. Todos os direitos reservados.</p>
+      <p>© 2026 CotaPrime. Todos os direitos reservados.</p>
       <a href="#inicio">Voltar ao topo</a>
     </div>
   </footer>
