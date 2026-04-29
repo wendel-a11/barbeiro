@@ -1,12 +1,13 @@
 Descrição
 
-Projeto front-end de um site chamado "barbeiro" (HTML, CSS e JavaScript).
+Projeto front-end de um site chamado "barbeiro (mais teve mudaças porque o joão não aceita o basico)" (HTML, CSS e JavaScript).
 Provavelmente um trabalho/mini‑projeto estático com pastas como TRABALHO e assets front-end.
 Tecnologias
-
+UTILIZADOS:
 HTML
 CSS
 JavaScript
+
 Instalação e execução local Opções rápidas para ver o projeto localmente:
 
 Abrir diretamente
